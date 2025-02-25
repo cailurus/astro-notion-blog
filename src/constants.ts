@@ -25,7 +25,7 @@ export const WEBMENTION_API_KEY =
 export const WEBMENTION_LINK = key_value_from_json["webmention"]["webmention-link"] || "";
 
 export const CUSTOM_DOMAIN =
-	process.env.CUSTOM_DOMAIN || key_value_from_json["custom-domain"] || ""; // <- Set your custom domain if you have. e.g. alpacat.com
+	process.env.CUSTOM_DOMAIN || key_value_from_json["custom-domain"] || "blog2.xxm.plus"; // <- Set your custom domain if you have. e.g. alpacat.com
 export const BASE_PATH =
 	process.env.BASE || process.env.BASE_PATH || key_value_from_json["base-path"] || ""; // <- Set sub directory path if you want. e.g. /docs/
 
